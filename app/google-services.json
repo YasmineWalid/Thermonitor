@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1061074930402",
+    "firebase_url": "https://thermonitor3-c62cf.firebaseio.com",
+    "project_id": "thermonitor3-c62cf",
+    "storage_bucket": "thermonitor3-c62cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061074930402:android:7562e36c1b48b225",
+        "android_client_info": {
+          "package_name": "com.example.thermonitor2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061074930402-ma7pd21dojsfl4rnqn624lqferg6rdrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6e6ZNAfA0stQUAMPLcpVLiIOMsUNm0FE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
