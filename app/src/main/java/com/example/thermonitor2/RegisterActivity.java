@@ -88,7 +88,7 @@ startActivity(new Intent(this,MainActivity.class));
             public void onComplete(@NonNull Task<AuthResult> task) {
                 progressBar.setVisibility(View.GONE);
               if(task.isSuccessful()){
-                  Intent intent= new Intent(RegisterActivity.this,ListActivity.class);
+                  Intent intent= new Intent(RegisterActivity.this,WIFIActivity.class);
                   intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                   startActivity(intent);
                   finish();

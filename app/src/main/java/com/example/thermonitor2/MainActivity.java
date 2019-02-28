@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
+
     }
 public void userLogin(){
 
@@ -69,7 +70,7 @@ public void userLogin(){
           @Override
           public void onComplete(@NonNull Task<AuthResult> task) {
               if(task.isSuccessful()){
-                  Intent intent= new Intent(MainActivity.this,ListActivity.class);
+                  Intent intent= new Intent(MainActivity.this,WIFIActivity.class);
                   intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                   startActivity(intent);
                   finish();
